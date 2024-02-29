@@ -8,21 +8,19 @@
     <description>Java class library to estimate the nationality of a person based on a last name.</description>
     <developers>
         <developer>
-            <id>kovacskristofgabor</id>
-            <name>Kovács Kristóf Gábor</name>
-            <email>k.kristof.gabor@gmail.com</email>
+            <id>horvathhalex16</id>
+            <name>Horváth Alex</name>
+            <email>horvathhalex16@gmail.com</email>
             <organization>Faculty of Informatics, University of Debrecen</organization>
             <organizationUrl>https://www.inf.unideb.hu/</organizationUrl>
         </developer>
     </developers>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.outputEncoding>UTF-8</project.build.outputEncoding>
-        <maven.compiler.release>17</maven.compiler.release>
+        <maven.compiler.release>11</maven.compiler.release>
         <mainClass>nationalize.Main</mainClass>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>io.github.openfeign</groupId>
@@ -37,7 +35,6 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
